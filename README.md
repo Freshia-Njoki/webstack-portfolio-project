@@ -1,4 +1,4 @@
-##CareerPASS API Documentation
+CareerPASS API Documentation
 Welcome to the CareerPASS API documentation. This API provides endpoints for managing users, administering assessments, and handling assessment submissions.
 
 #Table of Contents
