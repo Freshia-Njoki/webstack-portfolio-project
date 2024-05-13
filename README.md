@@ -1,32 +1,34 @@
-CareerPASS API Documentation
+# CareerPASS API Documentation
+
 Welcome to the CareerPASS API documentation. This API provides endpoints for managing users, administering assessments, and handling assessment submissions.
 
-#Table of Contents
+## Table of Contents
 Endpoints
 Authentication
 Responses
 Error Handling
-Endpoints
-Users
+
+
+### Users
 POST /register: Register a new user.
 GET /adminLogin: Admin login.
 GET /showApplicants: Retrieve all applicants.
 POST /adminRegister: Register a new admin.
 
-#Question Management - CRUD
+### Question Management - CRUD
 Create Question
 Endpoint: baseURL/createQuestion
 Method: POST
 Description: Create a new assessment question.
 
 
-Get All Questions
+### Get All Questions
 Endpoint: baseURL/getAllQuestions
 Method: GET
 Description: Retrieve all assessment questions.
 Response: List of questions objects containing details such as image_path, question_text, options, etc
 
-Update Question
+### Update Question
 Endpoint: baseURL/updateQuestion/questionId
 Method: PUT
 Description: Update an existing assessment question. The specified fields in JSON object are required!
